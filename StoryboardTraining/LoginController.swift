@@ -11,6 +11,9 @@ import UIKit
 class LoginController: UIViewController {
     
     
+    @IBOutlet weak var UserNameTxtField: UITextField!
+    
+    var userName=""
     override func loadView() {
         super.loadView()
         print("loadView")
@@ -41,6 +44,33 @@ class LoginController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         print("viewDidDisappear animated= \(animated)")
     }
-
+    
+//    @IBAction func showRegisterController(_ sender: Any) {
+//        NSLog("showRegisterController")
+////        let registerViewController = RegisterViewController(nibName: "RegisterViewController", bundle: nil)
+////        self.navigationController?.pushViewController(registerViewController, animated: true)
+////        self.present(registerViewController, animated: true)
+//    }
+    
+    
+    @IBAction func loginAction(_ sender: Any) {
+        self.userName = UserNameTxtField.text ?? ""
+        performSegue(withIdentifier: "loginSuccess", sender: self)
+    }
+    
+    
+    @IBAction func showRegisterHere(_ sender: Any) {
+        print("showRegisterController")
+        let registerViewController = RegisterViewController(nibName: "RegisterViewController", bundle: nil)
+        registerViewController.modalPresentationStyle = .fullScreen
+        //self.present(registerViewController, animated:true)
+        self.navigationController?.pushViewController(registerViewController, animated: true)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var viewController = segue.destination as? MainController
+        viewController?.userName = self.userName
+    }
+    
 }
 

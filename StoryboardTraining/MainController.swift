@@ -9,7 +9,15 @@
 import UIKit
 
 class MainController:UIViewController{
+    @IBOutlet weak var TxtUserName: UILabel!
+    
+    var userName=""
     override func loadView() {
         super.loadView()
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        TxtUserName.text = "Hello user: " + userName
     }
 }

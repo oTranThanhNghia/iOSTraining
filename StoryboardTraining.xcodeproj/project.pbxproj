@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA611E1624039E3400CB8362 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA611E1424039E3400CB8362 /* RegisterViewController.swift */; };
+		BA611E1724039E3400CB8362 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA611E1524039E3400CB8362 /* RegisterViewController.xib */; };
 		BA8868CB23FFC33A00B9430A /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8868CA23FFC33A00B9430A /* MainController.swift */; };
-		BA8868CD23FFE06E00B9430A /* Register.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8868CC23FFE06E00B9430A /* Register.xib */; };
 		BACCE16823FE82C900CB7B8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACCE16723FE82C900CB7B8A /* AppDelegate.swift */; };
 		BACCE16A23FE82C900CB7B8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACCE16923FE82C900CB7B8A /* SceneDelegate.swift */; };
 		BACCE16C23FE82C900CB7B8A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACCE16B23FE82C900CB7B8A /* LoginController.swift */; };
@@ -37,8 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA611E1424039E3400CB8362 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		BA611E1524039E3400CB8362 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		BA8868CA23FFC33A00B9430A /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
-		BA8868CC23FFE06E00B9430A /* Register.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Register.xib; sourceTree = "<group>"; };
 		BACCE16423FE82C900CB7B8A /* StoryboardTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACCE16723FE82C900CB7B8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BACCE16923FE82C900CB7B8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +113,8 @@
 				BACCE17223FE82CB00CB7B8A /* LaunchScreen.storyboard */,
 				BACCE17523FE82CB00CB7B8A /* Info.plist */,
 				BA8868CA23FFC33A00B9430A /* MainController.swift */,
-				BA8868CC23FFE06E00B9430A /* Register.xib */,
+				BA611E1424039E3400CB8362 /* RegisterViewController.swift */,
+				BA611E1524039E3400CB8362 /* RegisterViewController.xib */,
 			);
 			path = StoryboardTraining;
 			sourceTree = "<group>";
@@ -240,8 +243,8 @@
 			files = (
 				BACCE17423FE82CB00CB7B8A /* LaunchScreen.storyboard in Resources */,
 				BACCE17123FE82CB00CB7B8A /* Assets.xcassets in Resources */,
-				BA8868CD23FFE06E00B9430A /* Register.xib in Resources */,
 				BACCE16F23FE82C900CB7B8A /* Main.storyboard in Resources */,
+				BA611E1724039E3400CB8362 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA8868CB23FFC33A00B9430A /* MainController.swift in Sources */,
+				BA611E1624039E3400CB8362 /* RegisterViewController.swift in Sources */,
 				BACCE16C23FE82C900CB7B8A /* LoginController.swift in Sources */,
 				BACCE16823FE82C900CB7B8A /* AppDelegate.swift in Sources */,
 				BACCE16A23FE82C900CB7B8A /* SceneDelegate.swift in Sources */,
