@@ -114,7 +114,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login Success" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJI-YF-5bI">
-                                <rect key="frame" x="151.5" y="437.5" width="111" height="21"/>
+                                <rect key="frame" x="151.5" y="118" width="111" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -122,8 +122,8 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="dJI-YF-5bI" firstAttribute="centerY" secondItem="Qza-NY-g3V" secondAttribute="centerY" id="C2n-kI-5OA"/>
-                            <constraint firstItem="dJI-YF-5bI" firstAttribute="centerX" secondItem="Qza-NY-g3V" secondAttribute="centerX" id="fcG-C3-3va"/>
+                            <constraint firstItem="dJI-YF-5bI" firstAttribute="centerX" secondItem="Qza-NY-g3V" secondAttribute="centerX" id="OTf-8K-DFr"/>
+                            <constraint firstItem="dJI-YF-5bI" firstAttribute="top" secondItem="OB0-uf-Odk" secondAttribute="top" constant="30" id="Vyg-UY-QNi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="OB0-uf-Odk"/>
                     </view>
